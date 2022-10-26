@@ -62,7 +62,7 @@ A board built to the JLC7628 table, with 5 mil wide traces spaced 4 mil apart, h
 
 A board built to the JLC3313 table, with 4 mil wide traces spaced 5 mil apart, has 99.96 Ω differential impedance.
 
-#####Sierra Circuits' capabilities
+##### Sierra Circuits' capabilities
 
 Using Sierra's stackup calculator trial, I get this stack: 
 
@@ -89,7 +89,7 @@ Note that this stackup has 0.25 oz copper for outer layers and 1 oz copper for i
 
 ##### Comparison/planning:
 
-![compare chart](ref/zdiff_jlc_vs_sierra.pdf)
+![compare chart](zdiff_jlc_vs_sierra.pdf)
 
 Here is a summary of output from JLCPCB's and Sierra's online impedance calculators. The point at 6 mil width on the JLC3313 curve is a guess, so it should not be trusted. So, there is not much information on the JLC3313 curve to define it. 
 
