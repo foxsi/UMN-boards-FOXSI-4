@@ -34,3 +34,7 @@ quote*/
 # macOS stuff
 
 *.DS_Store
+
+# other projects
+/Pi2CM4
+/ethernet_switch
