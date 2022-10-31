@@ -429,15 +429,19 @@
     ],
     [
       "15694156-7a52-49b5-862a-7571cd4c2875",
-      "houskeeping"
+      "rtd"
     ],
     [
       "61157ce7-8d23-444c-a938-99c169f32692",
-      "header"
+      "rtd_header"
     ],
     [
       "1267767f-7f04-4f27-b55c-4bf9f2e779ba",
       "eth_phy"
+    ],
+    [
+      "9fb1c949-1824-4556-ba18-a9edd64fb2ac",
+      "imu"
     ]
   ],
   "text_variables": {}
