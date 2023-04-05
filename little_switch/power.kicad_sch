@@ -1422,7 +1422,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 23f6029d-800d-4dce-ad05-7ec5c4b8c5d5)
   )
-  (text "For a linear regulator taking 5V and delivering:\n25 mA @ 3.3 V => 0.0425 W dissipated \n180 mA @ 2.5 V => 0.4 W dissipated\n505 mA @ 1.2 V => 1.919 W dissipated\nTotal power dissipation: 2.36 W"
+  (text "For a linear regulator taking 5V and delivering:\n25 mA @ 3.3 V => 0.0425 W dissipated \n180 mA @ 2.5 V => 0.4 W dissipated\n505 mA @ 1.2 V => 1.919 W dissipated\nTotal power dissipation: 2.36 W\n"
     (at 203.2 25.4 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2473b5e2-6570-4087-a36d-c974c0a02734)

@@ -99,4 +99,90 @@ Instead, compare JLC7628 to FR370HR. These look like they converge for small tra
 
 **Oshpark** would need 11 width/5 space.
 
+## Assembly order
+1. U3 and U4 reflow
+2. Other power components with iron (inductors, big caps last)
+3. Test power supply
+4. U1 and Y1 reflow in one heating
+5. TR1-TR6 and FL1-FL6 reflow
+6. All remaining SMD parts with iron
+7. J3 with iron
+8. J7 with iron
 
+![compare chart](first_parts_highlight.png)
+*parts to do for steps 1-2*
+
+### Shorts
+1. `+1V2` <=> `GND`
+2. `+2V5` <=> `GND`
+	
+	(suspect `GND` pad on `U3` is problem)
+	(OR could easily be a bridge somewhere on `U1`)
+3. short across `C51`, `XO` <=> `GND`	
+4. possible bridge on north side of `U1`---checked on microscope; remove with iron and re-check.
+
+If 4. doesn't pan out, try reflowing `U3`
+
+IT'S THE LITTLE DAMN CIRCLE. PIN 1 IS THE LITTLE CIRCLE, NOT THE BIG ONE.
+
+### Work Dec 6 2022
+1. Desoldered `U1` (apparently pin 1 was 180º away).
+2. Tested power supplies:
+	- 3V3. looks good---read 3.36V on scope.
+	- 1V2. looks good---read 1.22V on scope.
+	- 2V5. looks good---read 2.56V on scope.
+	- All have tiny, tiny ripple. Keep in mind this was unloaded.
+3. Resolder `U1`.
+4. Tested power again, all voltages look good. Draws total 104mA on 5V in
+5. Cleaned up some flux, but hard to get all of it.
+6. Things look good under the microscope. No obvious shorts (except one GND<=>GND between pins 46 and 47.
+7. Retest power after cleaning on better scope:
+	- 3V3. looks good---read 3.36V, 16mV P-P
+	- 2V5. looks good---read 2.56V, 27mV P-P
+	- 1V2. looks good---read 1.21V, 16mV P-P
+	- Total draw on 5V: 1.4A (consistent). `U1` warms slightly to touch.
+	
+8. laptop to Pi direct connect
+	- From Pi, `AthanasisosPantazides.local` resolves to `169.254.42.77`
+	- From laptop, `raspberrypi.local` resolves to `169.254.48.24`
+9. laptop to switch, Pi to switch (CAT5s)
+	- Switch now draws 170mA from 5V supply.
+	- **IT WORKS**
+		- Can ssh from laptop to Pi via switch.
+		- Can `ping` laptop from Pi and vice-versa. Get these summary stats from ping:
+
+laptop side:
+
+```
+round-trip min/avg/max/stddev = 0.656/1.026/1.683/0.180 ms
+``` 
+
+Pi side:
+
+```
+rtt min/avg/max/mdev = 0.614/1.028/1.425/0.193 ms
+```
+
+laptop side with 90º jumper (not short CAT5):
+```
+round-trip min/avg/max/stddev = 0.865/1.219/2.156/0.279 ms
+```
+
+10. test stack assembly:
+	- switch has tons of clearance to Pi (using ESQ-120-24-G-D stack header on switch + 5/8" length standoff)
+	- ~~switch **conflicts** with capacitor on bottom of SPMU-001 (using 7/16" length standoff between switch and SPMU-001)~~
+		- ~~unclear yet if SPMU-001 header (SSQ-120-01-G-D) will need to change to maintain sufficient electrical contact with switch's header once taller standoffs used.~~
+		- ~~capacitor is 1.8 mm tall off bottom of board (measured).~~
+		- ~~dual RJ45 is 9.9 mm tall off board~~
+	- **OOOOPS:** using wrong standoffs. With correct standoffs plenty of clearance.
+
+### Management/housekeeping
+**Use in-band access**
+
+- Enable with IBA jumper
+- See PDF page 63.
+- Need to use SPI/I2C to switch IBA port from 7 to (one of the PHY ones, [1-5])
+
+
+## Version 2 desired changelog
+1. Fix LEDs
