@@ -413,21 +413,21 @@ Found same basic pulse shape everywhere, but edges are worse/more ringing at PIC
 
 ### May 3
 Switched to Microchip UDP demo, still no luck getting working. The unconnected HK TX+ emits this: 
-![](/Users/thanasi/Documents/FOXSI/Photos/MN HK ether/IMG_0323.jpeg)
+![](img/IMG_0323.jpeg)
 
 But unconnected TX+ from laptop or Formatter/ether switch (respectively) emit this:
-![](/Users/thanasi/Documents/FOXSI/Photos/MN HK ether/IMG_0328.jpeg)
-![](/Users/thanasi/Documents/FOXSI/Photos/MN HK ether/IMG_0329.jpeg)
+![](img/IMG_0328.jpeg)
+![](img/IMG_0329.jpeg)
 
 Also, here are two different output ports of the Formatter/ether switch TX+ line with nothing connected:
-![](/Users/thanasi/Documents/FOXSI/Photos/MN HK ether/IMG_0330.jpg)
+![](img/IMG_0330.jpg)
 
 Suspect this is the MAC broadcasting its address or something. Seeming more and more like a fundamental problem with the HK board?
 
 ### May 4
 The signal from the PIC TX+ line appears to be a Normal Link Pulse (NLP), which are typically spaced 16 ms apart. This is a physical-layer signal used in [10BASE-T autonegotiation](https://en.wikipedia.org/wiki/Autonegotiation). The signal on the same line, coming from the GSE machine appears to be a Fast Link Pulse (FLP):
 
-![](/Users/thanasi/Documents/FOXSI/Photos/MN HK ether/IMG_0352.jpg)
+![](img/IMG_0352.jpg)
 
 The first three pulses span exactly 125 µs, as in the [wikipedia image](https://en.wikipedia.org/wiki/Autonegotiation#/media/File:Link-code-word.svg) for FLP bursts.
 
