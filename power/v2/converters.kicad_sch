@@ -2838,10 +2838,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0eab84eb-7adf-4e13-8626-d0ebf13714ab)
   )
-  (text "should be ~20kΩ" (at 152.4 175.26 0)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 7ec0103f-97ac-401b-b6fb-122ddee5966f)
-  )
   (text "CHECK VALUE & PKG" (at 127 140.97 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f4151978-7af1-4db5-99c7-164298145d0b)
@@ -3134,7 +3130,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 138.43 194.31 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23f35787-5344-4bae-a80c-1f0552f3f86c)
-    (property "Reference" "H1" (at 134.62 194.31 0)
+    (property "Reference" "H?" (at 134.62 194.31 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2-56 hole" (at 132.08 198.12 0)
@@ -3150,7 +3146,7 @@
     (instances
       (project "power"
         (path "/37573c7b-8495-4bef-ac10-4b1f619acfc4"
-          (reference "H1") (unit 1)
+          (reference "H?") (unit 1)
         )
         (path "/37573c7b-8495-4bef-ac10-4b1f619acfc4/37583f93-f6a3-4d4f-8d31-07418f721252"
           (reference "H7") (unit 1)
@@ -3297,7 +3293,7 @@
   (symbol (lib_id "power:+28V_ret") (at 163.83 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2c0f98b8-7ea7-4efa-a7ba-7fddba4d3427)
-    (property "Reference" "#PWR09" (at 163.83 80.01 0)
+    (property "Reference" "#PWR?" (at 163.83 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+28V_ret" (at 163.83 77.47 0)
@@ -3313,7 +3309,7 @@
     (instances
       (project "power"
         (path "/37573c7b-8495-4bef-ac10-4b1f619acfc4"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/37573c7b-8495-4bef-ac10-4b1f619acfc4/37583f93-f6a3-4d4f-8d31-07418f721252"
           (reference "#PWR012") (unit 1)
@@ -3402,7 +3398,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 167.64 129.54 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 412d564b-1a94-44ff-844b-5eb06f1d20ed)
-    (property "Reference" "H1" (at 173.99 127 90)
+    (property "Reference" "H?" (at 173.99 127 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2-56 hole" (at 177.8 129.54 90)
@@ -3418,7 +3414,7 @@
     (instances
       (project "power"
         (path "/37573c7b-8495-4bef-ac10-4b1f619acfc4"
-          (reference "H1") (unit 1)
+          (reference "H?") (unit 1)
         )
         (path "/37573c7b-8495-4bef-ac10-4b1f619acfc4/37583f93-f6a3-4d4f-8d31-07418f721252"
           (reference "H6") (unit 1)
@@ -3455,7 +3451,7 @@
   (symbol (lib_id "power:+28V_ret") (at 163.83 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4d31f52f-3df8-4442-b880-0df655950a68)
-    (property "Reference" "#PWR09" (at 163.83 137.16 0)
+    (property "Reference" "#PWR?" (at 163.83 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+28V_ret" (at 163.83 134.62 0)
@@ -3471,7 +3467,7 @@
     (instances
       (project "power"
         (path "/37573c7b-8495-4bef-ac10-4b1f619acfc4"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/37573c7b-8495-4bef-ac10-4b1f619acfc4/37583f93-f6a3-4d4f-8d31-07418f721252"
           (reference "#PWR016") (unit 1)
@@ -3483,7 +3479,7 @@
   (symbol (lib_id "power:+28V_ret") (at 144.78 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4d43291f-2f67-4c9a-bb15-a2116588b31b)
-    (property "Reference" "#PWR09" (at 144.78 165.1 0)
+    (property "Reference" "#PWR?" (at 144.78 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+28V_ret" (at 144.78 162.56 0)
@@ -3499,7 +3495,7 @@
     (instances
       (project "power"
         (path "/37573c7b-8495-4bef-ac10-4b1f619acfc4"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/37573c7b-8495-4bef-ac10-4b1f619acfc4/37583f93-f6a3-4d4f-8d31-07418f721252"
           (reference "#PWR021") (unit 1)
@@ -3710,7 +3706,7 @@
   (symbol (lib_id "power:+28V_ret") (at 187.96 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53ca502e-893a-4dbf-8897-0d401d9ca7dd)
-    (property "Reference" "#PWR09" (at 187.96 49.53 0)
+    (property "Reference" "#PWR?" (at 187.96 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+28V_ret" (at 187.96 46.99 0)
@@ -3726,7 +3722,7 @@
     (instances
       (project "power"
         (path "/37573c7b-8495-4bef-ac10-4b1f619acfc4"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/37573c7b-8495-4bef-ac10-4b1f619acfc4/37583f93-f6a3-4d4f-8d31-07418f721252"
           (reference "#PWR014") (unit 1)
@@ -3764,7 +3760,7 @@
   (symbol (lib_id "power:+28V_ret") (at 187.96 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b85e267-4692-4d49-8592-a07602ab811d)
-    (property "Reference" "#PWR09" (at 187.96 166.37 0)
+    (property "Reference" "#PWR?" (at 187.96 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+28V_ret" (at 187.96 163.83 0)
@@ -3780,7 +3776,7 @@
     (instances
       (project "power"
         (path "/37573c7b-8495-4bef-ac10-4b1f619acfc4"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/37573c7b-8495-4bef-ac10-4b1f619acfc4/37583f93-f6a3-4d4f-8d31-07418f721252"
           (reference "#PWR020") (unit 1)
@@ -3908,7 +3904,7 @@
   (symbol (lib_id "power:+28V_ret") (at 154.94 193.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 62387fd7-b647-4549-bcf5-241071bd9cc8)
-    (property "Reference" "#PWR09" (at 154.94 199.39 0)
+    (property "Reference" "#PWR?" (at 154.94 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+28V_ret" (at 154.94 196.85 0)
@@ -3924,7 +3920,7 @@
     (instances
       (project "power"
         (path "/37573c7b-8495-4bef-ac10-4b1f619acfc4"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/37573c7b-8495-4bef-ac10-4b1f619acfc4/37583f93-f6a3-4d4f-8d31-07418f721252"
           (reference "#PWR015") (unit 1)
@@ -3962,7 +3958,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 167.64 72.39 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 652011b4-36bf-4823-9dfc-92e41d73fa70)
-    (property "Reference" "H1" (at 173.99 69.85 90)
+    (property "Reference" "H?" (at 173.99 69.85 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2-56 hole" (at 177.8 72.39 90)
@@ -3978,7 +3974,7 @@
     (instances
       (project "power"
         (path "/37573c7b-8495-4bef-ac10-4b1f619acfc4"
-          (reference "H1") (unit 1)
+          (reference "H?") (unit 1)
         )
         (path "/37573c7b-8495-4bef-ac10-4b1f619acfc4/37583f93-f6a3-4d4f-8d31-07418f721252"
           (reference "H5") (unit 1)
@@ -3990,7 +3986,7 @@
   (symbol (lib_id "power:+28V_ret") (at 187.96 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 687b75a9-5ec5-4be9-899d-97c393e82cd1)
-    (property "Reference" "#PWR09" (at 187.96 106.68 0)
+    (property "Reference" "#PWR?" (at 187.96 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+28V_ret" (at 187.96 104.14 0)
@@ -4006,7 +4002,7 @@
     (instances
       (project "power"
         (path "/37573c7b-8495-4bef-ac10-4b1f619acfc4"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/37573c7b-8495-4bef-ac10-4b1f619acfc4/37583f93-f6a3-4d4f-8d31-07418f721252"
           (reference "#PWR018") (unit 1)
@@ -4070,7 +4066,7 @@
   (symbol (lib_id "power:+28V_ret") (at 33.02 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 70c42079-b3c3-4686-84af-9dcc3c6a2a78)
-    (property "Reference" "#PWR09" (at 33.02 96.52 0)
+    (property "Reference" "#PWR?" (at 33.02 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+28V_ret" (at 33.02 93.98 0)
@@ -4086,7 +4082,7 @@
     (instances
       (project "power"
         (path "/37573c7b-8495-4bef-ac10-4b1f619acfc4"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/37573c7b-8495-4bef-ac10-4b1f619acfc4/37583f93-f6a3-4d4f-8d31-07418f721252"
           (reference "#PWR019") (unit 1)
@@ -4591,7 +4587,7 @@
     (property "Reference" "R10" (at 151.13 171.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "5.11kΩ" (at 147.32 176.53 0)
+    (property "Value" "20kΩ" (at 147.32 176.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 155.956 174.244 90)
@@ -4614,7 +4610,7 @@
   (symbol (lib_id "power:+28V_ret") (at 144.78 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a86b4b24-f10b-4565-ba97-20260e2516da)
-    (property "Reference" "#PWR09" (at 144.78 49.53 0)
+    (property "Reference" "#PWR?" (at 144.78 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+28V_ret" (at 144.78 46.99 0)
@@ -4630,7 +4626,7 @@
     (instances
       (project "power"
         (path "/37573c7b-8495-4bef-ac10-4b1f619acfc4"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/37573c7b-8495-4bef-ac10-4b1f619acfc4/37583f93-f6a3-4d4f-8d31-07418f721252"
           (reference "#PWR013") (unit 1)
@@ -5141,7 +5137,7 @@
   (symbol (lib_id "power:+28V_ret") (at 144.78 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f64e4756-0701-4bff-970e-c7ad0f2fc83b)
-    (property "Reference" "#PWR09" (at 144.78 106.68 0)
+    (property "Reference" "#PWR?" (at 144.78 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+28V_ret" (at 144.78 104.14 0)
@@ -5157,7 +5153,7 @@
     (instances
       (project "power"
         (path "/37573c7b-8495-4bef-ac10-4b1f619acfc4"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/37573c7b-8495-4bef-ac10-4b1f619acfc4/37583f93-f6a3-4d4f-8d31-07418f721252"
           (reference "#PWR017") (unit 1)
