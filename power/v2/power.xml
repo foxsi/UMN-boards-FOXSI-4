@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/thanasi/Documents/KiCad/7.0/projects/FOXSI/power/v2/power.kicad_sch</source>
-    <date>2023 July 11, Tuesday 17:11:03</date>
+    <date>2023 November 27, Monday 09:55:56</date>
     <tool>Eeschema 7.0.1-0</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1635,7 +1635,7 @@
       <tstamps>dc97012f-1f97-4d7f-b622-003ccd267184</tstamps>
     </comp>
     <comp ref="U19">
-      <value>G3VM-31WR</value>
+      <value>G3VM-61WR</value>
       <footprint>Package_DFN_QFN:LDFN-4_2.1x3.4mm</footprint>
       <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/k334-e1.pdf</datasheet>
       <fields>
@@ -1649,7 +1649,7 @@
       <tstamps>e3d22d1b-2abb-45c2-9ce5-42a15f48b4e5</tstamps>
     </comp>
     <comp ref="U20">
-      <value>G3VM-31WR</value>
+      <value>G3VM-61WR</value>
       <footprint>Package_DFN_QFN:LDFN-4_2.1x3.4mm</footprint>
       <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/k334-e1.pdf</datasheet>
       <fields>
@@ -1663,7 +1663,7 @@
       <tstamps>81c547ad-af6a-4518-aed8-1ff73108fe0d</tstamps>
     </comp>
     <comp ref="U21">
-      <value>G3VM-31WR</value>
+      <value>G3VM-61WR</value>
       <footprint>Package_DFN_QFN:LDFN-4_2.1x3.4mm</footprint>
       <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/k334-e1.pdf</datasheet>
       <fields>
@@ -1677,7 +1677,7 @@
       <tstamps>98ae01b6-ab4d-464b-b250-8746cad22fd6</tstamps>
     </comp>
     <comp ref="U22">
-      <value>G3VM-31WR</value>
+      <value>G3VM-61WR</value>
       <footprint>Package_DFN_QFN:LDFN-4_2.1x3.4mm</footprint>
       <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/k334-e1.pdf</datasheet>
       <fields>
@@ -1691,7 +1691,7 @@
       <tstamps>3d330d95-8706-40a2-8377-ceb61e0d7ff4</tstamps>
     </comp>
     <comp ref="U23">
-      <value>G3VM-31WR</value>
+      <value>G3VM-61WR</value>
       <footprint>Package_DFN_QFN:LDFN-4_2.1x3.4mm</footprint>
       <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/k334-e1.pdf</datasheet>
       <fields>
@@ -1705,7 +1705,7 @@
       <tstamps>95f2ff7e-45c5-40db-8b86-28baff477d02</tstamps>
     </comp>
     <comp ref="U24">
-      <value>G3VM-31WR</value>
+      <value>G3VM-61WR</value>
       <footprint>Package_DFN_QFN:LDFN-4_2.1x3.4mm</footprint>
       <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/k334-e1.pdf</datasheet>
       <fields>
